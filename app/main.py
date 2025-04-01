@@ -1,7 +1,6 @@
 def copy_file(command: str) -> None:
     cmd = command.split()
     if len(cmd) == 3 and cmd[0] == "cp":
-        copy_command = cmd[0]
         file_name_to_copy = cmd[1]
         new_file_name = cmd[2]
     else:
